@@ -39,8 +39,8 @@ namespace NuclearReactor
             outputLabel.Text = "Meltdown Imminent";
 
             //change the colour of the state labels
-            reactor1StateLabel.BackColor = Color.Black;
-            reactor2StateLabel.BackColor = Color.Black;
+            reactor1StateLabel.BackColor = Color.Red;
+            reactor2StateLabel.BackColor = Color.Red;
             Refresh();
             Thread.Sleep(1000);
 
